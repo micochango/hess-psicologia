@@ -1,19 +1,17 @@
 import {server} from '../config'
-import Head from 'next/head'
-import Image from 'next/image'
 import ArticleList from '../components/ArticleList'
+import styles from '../styles/Layout.module.css'
 
 
 export default function Blog({articles}) {
   return (
-    <div>
-      <Head>
-        <title>Hess Psicología</title>
-        <meta name="keywords" content="psicología, terapia, guatemala, parejas, familia, salud, mental" />
-      </Head>
+    <>
+      <div className={`${styles.bgAzure} ${styles.container}`}>
       <h1>Blog</h1>
       <ArticleList articles={articles} />
     </div>
+    </>
+    
   )
 }
 

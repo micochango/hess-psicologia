@@ -1,9 +1,10 @@
 .nav {
-    height: 50px;
+    max-height:50px;
     padding: 10px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex: stretch;
 }
 
 .nav ul {
@@ -13,7 +14,14 @@
     list-style: none;
 }
 
-.nav ul li a {
+.nav ul li  {
+    display: flex;
     margin: 5px 15px;
 }
+
+
+
+
+
+
 

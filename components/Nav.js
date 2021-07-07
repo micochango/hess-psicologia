@@ -3,8 +3,10 @@ import Link from 'next/link'
 
 const Nav = () => {
     return (
-        <nav className={navStyles.nav}>
-            <ul>
+        <>
+            <nav>
+            <div className={navStyles.nav}>
+            <ul className={navStyles.menu}>
                 <li>
                     <Link href='/'>Inicio</Link>
                 </li>
@@ -21,7 +23,9 @@ const Nav = () => {
                     <Link href='/contact'>Contacto</Link>
                 </li>
             </ul>
+            </div>
         </nav>
+        </>
     )
 }
 

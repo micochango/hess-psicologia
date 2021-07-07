@@ -1,11 +1,11 @@
 export const articles = [
     {
       id: '1',
-      title: 'GitHub introduces dark mode and auto-merge pull request',
+      title: '3 lecciones que aprendí sobre el manejo de estrés trabajando con grupos militares de élite',
       excerpt:
-        'GitHub today announced a bunch of new features at its virtual GitHub...',
+        'El entrenamiento Kaibil es conocido por ser uno de los entrenamientos más exigentes en el mundo...',
       body:
-        'GitHub today announced a bunch of new features at its virtual GitHub Universe conference including dark mode, auto-merge pull requests, and Enterprise Server 3.0. In the past couple of years, almost all major apps have rolled out a dark theme for its users, so why not GitHub?',
+        'El entrenamiento Kaibil es conocido por ser uno de los entrenamientos más exigentes en el mundo. Trabajando con integrantes de este comando militar, aprendí grandes lecciones sobre el manejo del estrés en situaciones de alta presión y constante cambio.',
     },
     {
       id: '2',
